@@ -3,7 +3,6 @@ const $$ = (selector, scope = document) => [...scope.querySelectorAll(selector)]
 
 const navToggle = $("#navToggle");
 const siteNav = $("#siteNav");
-const cursorGlow = $("#cursorGlow");
 const projectGrid = $("#projectGrid");
 const contactForm = $("#contactForm");
 const formResult = $("#formResult");
@@ -22,12 +21,6 @@ $$(".site-nav a").forEach((link) => {
   });
 });
 
-window.addEventListener("pointermove", (event) => {
-  if (!cursorGlow) return;
-  cursorGlow.style.opacity = "1";
-  cursorGlow.style.left = `${event.clientX}px`;
-  cursorGlow.style.top = `${event.clientY}px`;
-});
 
 async function loadProjects() {
   try {
