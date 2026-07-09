@@ -1,0 +1,22 @@
+{
+  "name": "anaya-roblox-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Graffiti techno Roblox builder and scripting portfolio for Vercel.",
+  "scripts": {
+    "dev": "vercel dev",
+    "start": "vercel dev"
+  },
+  "keywords": [
+    "roblox",
+    "portfolio",
+    "vercel",
+    "graffiti",
+    "techno"
+  ],
+  "author": "ANAYA REALM STUDIOS",
+  "license": "MIT",
+  "devDependencies": {
+    "vercel": "latest"
+  }
+}
